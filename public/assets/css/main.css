@@ -1,0 +1,12 @@
+body, html {
+	background-color: #f4f4f4;
+	color: #333;
+	padding: 0;
+	margin: 10000px;
+}
+
+.element1 {
+	background-color: green;
+	color: #000;
+	border-raduis: 15px;
+}

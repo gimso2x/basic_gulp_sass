@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+/*
+*  SCSS 변수 및 함수 정의
+*/
+
+// @import url(/new/font/NotoSansKR/NotoSansKR.css);
+
+$default-font-size: 60px;
+$default-font-color: #1c1c1c;
+$default-font-color-link: #005698;
+$default-font-famliy: 'Noto Sans KR', Malgun Gothic, '맑은 고딕', dotum, '돋움', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial,sans-serif;
+
+$default-point-color: #45525e;
+$point-color1: #005698;
+$point-color2: #f7f8fc;
+$point-color3: #e54141;
+$point-color4: #2380fa;
+
+$gray-ccc: #ccc;
+$gray-eee: #eee;
+$gray-e6: #e6e6e6;
+$gray-ddd: #ddd;
+
+@mixin background($src, $attr) {
+    background-image: url($src+'.'+$attr);
+    background-image: 
+    image-set(
+        url($src+'@2x.'+$attr) 2x,
+        url($src+'@3x.'+$attr) 3x,
+    );
+}
